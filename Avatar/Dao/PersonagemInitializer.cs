@@ -21,7 +21,7 @@ namespace Avatar.Dao
 
                 }
             };
-
+            
             personagens.ForEach(p => context.Personagens.Add(p));
             context.SaveChanges();
         }

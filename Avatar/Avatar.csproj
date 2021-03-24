@@ -127,9 +127,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ContaUsuarioController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PersonagemController.cs" />
+    <Compile Include="Dao\ContaUsuarioContext.cs" />
     <Compile Include="Dao\PersonagemContext.cs" />
+    <Compile Include="Dao\ContaUsuarioInitializer.cs" />
     <Compile Include="Dao\PersonagemInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -180,6 +183,12 @@
     <Content Include="Views\Personagem\Create.cshtml" />
     <Content Include="Views\Personagem\Edit.cshtml" />
     <Content Include="Views\Personagem\Details.cshtml" />
+    <Content Include="Views\ContaUsuario\Create.cshtml" />
+    <Content Include="Views\ContaUsuario\Edit.cshtml" />
+    <Content Include="Views\ContaUsuario\Details.cshtml" />
+    <Content Include="Views\ContaUsuario\Delete.cshtml" />
+    <Content Include="Views\ContaUsuario\DeleteConfirm.cshtml" />
+    <Content Include="Views\ContaUsuario\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
